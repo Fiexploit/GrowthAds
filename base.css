@@ -145,6 +145,60 @@ button:focus {
      outline: none;
 }
 
+.note-edu {
+     margin-top: 18px;
+     padding: 12px 15px;
+     background: linear-gradient(135deg, #6b5cff, #3b2fd8);
+     border-radius: 20px;
+     box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.note-edu p {
+     font-size: 12px;
+     padding-left: 20px;
+}
+
+.tooltip-container {
+     position: relative;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     width: 16px;
+     height: 16px;
+     margin-left: 6px;
+     border-radius: 50%;
+     background: #e5e7eb;
+     color: #374151;
+     font-size: 11px;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+.tooltip-text {
+     visibility: hidden;
+     opacity: 0;
+     position: absolute;
+     bottom: 130%;
+     left: 50%;
+     transform: translateX(-50%);
+     background: rgba(155, 171, 224, 0.519);
+     color: #fff;
+     padding: 8px 10px;
+     border-radius: 6px;
+     font-size: 12px;
+     width: 220px;
+     text-align: center;
+     line-height: 1.4;
+     transition: opacity 0.2s ease;
+     z-index: 10;
+}
+
+.tooltip-container:hover .tooltip-text {
+     visibility: visible;
+     opacity: 1;
+}
+
+
 /* Responsive untuk mobile, tanpa mengubah desain */
 @media (max-width: 768px) {
      .calculator {
