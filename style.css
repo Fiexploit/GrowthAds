@@ -58,3 +58,28 @@ body {
      color: white;
      font-weight: bold;
 }
+
+@media (max-width: 768px) {
+     .auth-layout {
+          grid-template-columns: 1fr;
+     }
+
+     .auth-left {
+          display: none;
+     }
+
+     .auth-right {
+          padding: 32px 20px;
+          height: 100vh;
+          -content: center;
+     }
+
+     .auth-right input {
+          width: 100%;
+          max-width: 100%;
+     }
+
+     .auth-right button {
+          width: 100%;
+     }
+}
