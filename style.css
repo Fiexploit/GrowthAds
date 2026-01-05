@@ -1,0 +1,60 @@
+body {
+     margin: 0;
+     font-family: "Poppins", sans-serif;
+}
+
+.auth-layout {
+     display: grid;
+     grid-template-columns: 0.5fr 1fr;
+     height: 100vh;
+}
+
+.auth-left {
+     background-image: url(img/medium.jpg);
+     position: relative;
+     background-size: cover;
+     background-position: center;
+}
+
+.auth-left p {
+     color: #6c5ce7;
+}
+
+.brand-logo h3 {
+     margin-left: 30px;
+     color: #6c5ce7;
+}
+
+.overlay {
+     position: absolute;
+     bottom: 40px;
+     left: 40px;
+     color: white;
+     max-width: 300px;
+}
+
+.auth-right {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 80px;
+}
+
+.auth-right input {
+     padding: 14px;
+     width: 300px;
+     border-radius: 8px;
+     border: 1px solid #6c5ce7;
+     margin-bottom: 16px;
+}
+
+.auth-right button {
+     padding: 14px;
+     width: 150px;
+     border-radius: 8px;
+     border: none;
+     background: #6c5ce7;
+     color: white;
+     font-weight: bold;
+}

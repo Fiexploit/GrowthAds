@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator ROAS</title>
+    <link rel="stylesheet" href="base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <h3>GrowthAds</h3>
+      </div>
+      <button type="button" class="btn-logout">Logout</button>
+    </nav>
+
+    <div class="calculator">
+      <div class="calc-left">
+        <h2>Kalkulator ROAS</h2>
+        <div class="form-group">
+          <label for="modal">Harga Modal</label>
+          <input id="modal" type="number" />
+        </div>
+        <div class="form-group">
+          <label for="jual">Harga Jual</label>
+          <input id="jual" type="number" />
+        </div>
+        <div class="form-group">
+          <label for="admin">Admin Shopee/TiktokShop (%)</label>
+          <input id="admin" type="number" />
+        </div>
+        <div class="form-group">
+          <label for="affiliate">Komisi Affiliate (%)</label>
+          <input id="affiliate" type="number" />
+        </div>
+        <button type="button" id="btnHitung">Hitung</button>
+      </div>
+
+      <div class="calc-right">
+        <div class="result-card">
+          <p>Gross Profit</p>
+          <h1 id="grossProfit">Rp. 0</h1>
+
+          <p>ROAS Impas</p>
+          <h2 id="roasImpas">0.0</h2>
+
+          <p>ROAS Minimal</p>
+          <h2 id="roasMinimal">0.0</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="kalkulator.js"></script>
+  </body>
+</html>
