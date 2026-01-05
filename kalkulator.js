@@ -1,6 +1,6 @@
 // Autentikasi
 if (localStorage.getItem("akses_roas") !== "true") {
-     window.location.href = "login.html";
+     window.location.href = "index.html";
 }
 
 // Animasi angka
@@ -56,5 +56,5 @@ if (localStorage.getItem("akses_roas") !== "true") {
 // Logout
      document.querySelector(".btn-logout").addEventListener("click", () => {
      localStorage.removeItem("akses_roas");
-     window.location.href = "login.html";
+     window.location.href = "index.html";
      });
