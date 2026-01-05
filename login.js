@@ -1,14 +1,14 @@
 const KODE_VALID = [
-     "GA-9XQ7-LM82-ZP",
-     "RO4S-A7F9-KD2X",
-     "GADS-8PZ3-QM91",
-     "RXA9-27QF-LZ8K",
-     "GRW-FA92-ZXQ7",
-     "ADS-9KQ2-PX7M",
-     "GROW-7ZQ9-AF2X",
-     "RAOS-X29F-Q7ZK",
-     "GX-8FQ7-29ZA",
-     "GADS-Q9Z7-X2FA"
+     "GA-9XQ7-LM2A",
+     "ROAS-F4K9-7QZ",
+     "GRW-8M2X-P9LQ",
+     "ADS-5QZ7-XM4R",
+     "GA-PL9X-7M2Q",
+     "R4AS-X7Q9-LM2",
+     "GADS-9M7X-'Q2L",
+     "RO4S-PLX9-7QM",
+     "GA-XM29-Q7LP",
+     "GRADS-7Q9X-LM2"
 ];
 
 const inputKode = document.getElementById("kode");
